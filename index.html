@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamini-Full Stack Developer</title> 
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+              <h1 class="home-title">
+                    Hi, I'm <span class="highlight">Yamini Sri</span>
+                </h1>
+                <p class="home-subtitle">Full Stack Developer</p>
+                <p class="home-description">
+                    I'm a passionate software developer skilled in full-stack development, problem-solving, and innovative project building. I'm eager to contribute to dynamic environments and create impactful digital solutions.
+</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/n190166" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/illa-yamini-sri-krishnaveni-4b09002b0" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a> -->
+                    <a href="mailto:yaminisrikrishnaveniilla@gmail.com"  class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-container">
+                    <img src="assets/images/yams.jpeg" alt="yamini" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                   <h3>I'm a passionate developer with a strong foundation in web and software development</h3>
+                    <p>
+    I'm Graduated in Computer science and Engineering from RGUKT Nuzvid, I've built several projects using React, PHP, and MySQL. My interest lies in creating dynamic and responsive web applications.
+                    </p>
+                   <p>
+    Outside of coding, I enjoy participating in tech fests, contributing to team projects, and constantly learning new technologies.
+                  </p>
+<a href="assets/Yamini_Resume.pdf" download class="btn-download">
+    <i class="fas fa-download"></i> Download Resume
+</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="tech-stack">
+            <!-- Web Tech -->
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <span>HTML</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <span>CSS</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap">
+                <span>Bootstrap</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJs">
+                <span>ReactJs</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+
+            <!-- Programming -->
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4350/4350012.png" alt="DSA">
+                <span>DSA</span>
+            </div>
+
+            <!-- DB + Tools -->
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <span>Git</span>
+            </div>
+             <div class="tech-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+    <span>Linux</span>
+</div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/medium.jpg" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PG’s LIFE</h3>
+                        <p class="project-description">
+                             Developed a room booking system with user authentication and CRUD functionalities using PHP and MySQL.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MYSQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/library-Blog-Size.jpg" alt="DeFi Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Book Store System</h3>
+                        <p class="project-description">
+                           Created a responsive online bookstore app using React, integrated with PHP backend and MySQL database.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MYSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/download.png" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TSE - Target Stance Extraction</h3>
+                        <p class="project-description">
+                           Built a machine learning model using Transformers for stance and target extraction using Python and NLP techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/todos.jpg" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://n190166.github.io/Todo/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/n190166/Todo" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Todos Application</h3>
+                        <p class="project-description">
+                           A todo management tool with CRUD operations and local storage.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">B.Tech in Computer Science </h3>
+                        <p class="timeline-subtitle">Rajiv Gandhi University of Knowlegde Technologies , Nuzvid</p>
+                        <p class="timeline-date">2021 - 2025</p>
+                        <p class="timeline-subtitle">CGPA:8.65</p>
+                       <p class="timeline-description"> Core CS Fundamentals&nbsp;&nbsp;&nbsp;&nbsp;Data Structures&nbsp;&nbsp;&nbsp;&nbsp;Algorithms&nbsp;&nbsp;&nbsp;&nbsp;Web Development</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Pre-University Course </h3>
+                        <p class="timeline-subtitle">Rajiv Gandhi University of Knowlegde Technologies , Nuzvid</p>
+                        <p class="timeline-date">2019 - 2021</p>
+                        <p class="timeline-subtitle">CGPA:9.2</p>
+                       <p class="timeline-description"> Mathematics&nbsp;&nbsp;&nbsp;&nbsp;Physics&nbsp;&nbsp;&nbsp;&nbsp;Chemistry</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Seconday School Certificate(ssc)</h3>
+                        <p class="timeline-subtitle">Z.P.P.Girls High School , Alamuru</p>
+                        <p class="timeline-date">2019 - 2021</p>
+                        <p class="timeline-subtitle">CGPA:10.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's discuss your project</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects.
+                        Whether you have a question or just want to say hello, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>yaminisrikrishnaveniilla@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>9059259395</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hyderabad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/n190166" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/illa-yamini-sri-krishnaveni-4b09002b0" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Yamini. All rights reserved.</p>
+            
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
