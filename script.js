@@ -1,13 +1,13 @@
 // EmailJS Configuration (Replace with your actual credentials)
 const EMAILJS_CONFIG = {
-    publicKey: 'YOUR_PUBLIC_KEY', // Replace with your EmailJS public key
-    serviceId: 'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-    templateId: 'YOUR_TEMPLATE_ID' // Replace with your EmailJS template ID
+    publicKey:  'GY6Hrt2HqFpAFb_x0', // Replace with your EmailJS public key
+    serviceId: 'service_tav6uis', // Replace with your EmailJS service ID
+    templateId: 'template_9rs72rf' // Replace with your EmailJS template ID
 };
 
 // Initialize EmailJS
 (function() {
-    emailjs.init(EMAILJS_CONFIG.publicKey);
+     emailjs.init(EMAILJS_CONFIG.publicKey);
 })();
 
 // DOM Elements
@@ -352,7 +352,7 @@ class ContactFormManager {
                 from_email: formData.get('email'),
                 subject: formData.get('subject'),
                 message: formData.get('message'),
-                to_name: 'John Doe', // Replace with your name
+                // to_name: 'yamini', // Replace with your name
             };
 
             // Send email using EmailJS
@@ -636,7 +636,7 @@ class SEOManager {
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "John Doe",
+            "name": "yamini",
             "jobTitle": "Full Stack Developer",
             "description": "Experienced full-stack developer specializing in modern web technologies and blockchain development.",
             "url": window.location.origin,
