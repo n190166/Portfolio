@@ -1,8 +1,8 @@
-// EmailJS Configuration (Replace with your actual credentials)
+// EmailJS Configuration 
 const EMAILJS_CONFIG = {
-    publicKey:  'GY6Hrt2HqFpAFb_x0', // Replace with your EmailJS public key
-    serviceId: 'service_tav6uis', // Replace with your EmailJS service ID
-    templateId: 'template_9rs72rf' // Replace with your EmailJS template ID
+    publicKey:  'GY6Hrt2HqFpAFb_x0', 
+    serviceId: 'service_tav6uis', 
+    templateId: 'template_9rs72rf' 
 };
 
 // Initialize EmailJS
@@ -352,7 +352,6 @@ class ContactFormManager {
                 from_email: formData.get('email'),
                 subject: formData.get('subject'),
                 message: formData.get('message'),
-                // to_name: 'yamini', // Replace with your name
             };
 
             // Send email using EmailJS
